@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="h-full w-screen text-slate-800 dark:bg-slate-900 dark:text-white box-border p-4">
+    <header>
+        <div class="flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold ml-[33%]">maitrayee</h1>
+            <i class="fa-solid fa-ellipsis-vertical cursor-pointer"></i>
+        </div>
+
+        <!-- navbar -->
+        <div class="flex justify-evenly items-center my-2 font-semibold">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" placeholder="Search..." class="w-[140px] text-slate-900 font-normal bg-[#f2f2f2] rounded-md p-2 outline-none">
+            </div>
+            <a href="#">Notes</a>
+            <a href="#">Links</a>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="bg-[#207868] text-white w-[90%] my-10 px-10 h-12 ml-auto mr-auto rounded-full flex justify-end items-center font-bold cursor-pointer">
+            GoTo...
+        </div>
+
+        <div class="flex justify-start items-center gap-x-4 mx-2">
+            <i class="fa-solid fa-user-lock text-2xl text-[#778796] cursor-pointer"></i>
+            <div class="flex justify-evenly items-center h-16 bg-[#c3d0d9] font-bold w-full">
+                <div class="flex justify-center items-center px-4 border-r-2 border-slate-900"><a href="#">Personal</a></div>
+                <div class="flex justify-center items-center px-4 border-r-2 border-slate-900"><a href="#">Work</a></div>
+                <div class="px-4"><a href="#">Blank</a></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="mt-10">
+        <h2 class="text-xl font-bold text-center">Dashboard</h2>
+        <div class="flex justify-evenly items-start mt-10 gap-x-14 gap-y-10 flex-wrap mx-2">
+            <div><i class="fa-solid fa-clock-rotate-left text-3xl text-[#6c5ed4] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-folder-open text-3xl text-[#e7843a] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-download text-3xl text-[#6c5ed4] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-location-dot text-3xl text-[#207868] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-box-archive text-3xl text-[#897b5f] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-music text-3xl text-[#7061fc] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-bookmark text-3xl text-[#f8c325] cursor-pointer"></i></div>
+            <div><i class="fa-brands fa-youtube text-3xl text-[#ff0033] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-trash text-3xl text-[#4b5a64] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-envelope text-3xl text-slate-800 cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-note-sticky text-3xl text-[#1b96f6] cursor-pointer"></i></div>
+            <div><i class="fa-solid fa-folder-plus text-3xl text-[#4b5a64] cursor-pointer"></i></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
